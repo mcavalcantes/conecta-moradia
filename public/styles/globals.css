@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .debug {
+    border: 1px solid red;
+  }
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
