@@ -16,7 +16,6 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Conecta Moradia",
-  description: "Built with Next.js",
 };
 
 export default function RootLayout({
@@ -29,8 +28,9 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="font-sans">
-        {children}
+      <body
+        className="font-sans"
+      >
       </body>
     </html>
   );
